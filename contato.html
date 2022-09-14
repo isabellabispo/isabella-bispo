@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer src="https://use.fonteawsome.com/releases/v5.3.1/js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="pstyle.css">
+  <link rel="styleheet" href= "animacao.css"/>
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html">
+          <img src="assets/img/casa.png" id="img-casa">
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu is-active">
+        <div class="navbar-start">
+          <a class="navbar-item" href="index.html">
+            Inicio
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="columns"  id="first">
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-200x200">
+              <img src="assets/img/isab.png" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Isabella Bispo</p>
+              </div>
+            </div>
+
+            <div class="content">
+              <p>(34) 98422-2972</p>
+              <p>isabellabispo.sr@gmail.com</p>
+              <div class="container">
+                <div class="columns">
+              <p>
+                <a href="https://www.linkedin.com/in/isabella-bispo-936916223/">
+                 
+                    <span>
+                      <figure class="img-linkedin">
+                      <img src="assets/img/linked.png">
+                      </figure>
+                    </span>
+                </a>
+
+              <p>
+                <a href="https://github.com/isabellabispo">
+                  <figure class="img-git">
+                    <span> 
+                      <img src="assets/img/git.png">
+                    </span>
+                  </figure>
+                </a>
+              </div>
+            </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+      <div class="column is-9">
+        <div class="card">
+          <header class="card-header">
+            <p class="card-header-title">
+              Contato
+            </p>
+          </header>
+
+          <form action="https://formspree.io/isabellabispo.sr@gmail.com" method="POST">
+          <div class="card-content">
+            <div class="content">
+              <div class="field">
+                <label class="label">Email</label>
+                <div class="control has-icons-left has-icons-right">
+                  <input class="input" type="email" name="email" placeholder="Email input" value="">
+                  <span class="icon is-small is-left">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                  <span class="icon is-small is-right">
+                    <i class="fas fa-exclamation-triangle"></i>
+                  </span>
+                </div>
+
+              </div>
+
+
+
+              <div class="field">
+                <label class="label">Message</label>
+                <div class="control">
+            
+                  <textarea class="textarea" placeholder="Textarea"></textarea>
+                </div>
+              </div>
+          
+              <div class="field is-grouped">
+                <div class="control">
+              
+                  <button class="button" id="btn-contato">Submit</button>
+                </form>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      
+</body>
+</html>

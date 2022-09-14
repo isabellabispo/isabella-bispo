@@ -1,0 +1,180 @@
+
+@keyframes animacao{
+
+    from{background-color: #ffff; margin-top: 7%;;}
+    to{background-color: #876f977c;;}
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #876f977c;;
+    animation-name: animacao;
+    animation-duration: 2s;
+    animation-delay: 1s;
+ 
+}
+
+
+
+.navbar{    
+    margin-bottom: 70px;
+    height: 60px;
+    background-color: rgba(66, 26, 99, 0.76) !important;
+   
+    
+}
+
+.navbar-item{
+   
+    margin-left: 1rem;
+}
+
+.card{
+    
+    margin-bottom: 8px;
+    
+}
+#card-hab{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: rgba(66, 26, 99, 0.76);
+    border-radius: 8px;
+}
+.navbar-start a{
+    color:#ffff !important;
+}
+.navbar-start :hover{
+    color:#ffff !important;
+    background-color: rgba(21, 7, 43, 0.363) !important;
+}
+
+
+#first{
+    padding-top: 4.3rem;
+    margin-left: -5rem;
+  
+}
+
+#h3-hability{
+    color: #ffff;
+    margin-top: 1rem;
+    margin-left: -2rem;
+}
+
+#hability img{
+    margin-top: 1rem;
+    margin-left: 6rem;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 4.5rem;  
+}
+
+#img-casa{
+    margin-left: 0.7rem;
+    width: 35px;
+    height: 70px;
+}
+
+
+#img-html{
+ opacity: 0.6;
+}
+
+#img-html:hover{
+    opacity: 100%;
+   }
+   
+   #img-css{
+    opacity: 0.8;
+   }
+   
+#img-css:hover{
+       opacity: 100%;
+      }
+
+#img-bulma{
+        opacity: 0.8;
+       }
+       
+#img-bulma:hover{
+    opacity: 100%;
+}
+
+#img-boot{
+    opacity: 0.8;
+}
+           
+#img-boot:hover{
+    opacity: 100%;
+}
+
+#drop-html{
+    width: 6rem;
+    margin-left: 6.5rem;
+    margin-top: -4rem;
+
+}
+
+#drop-css{
+    width: 5rem;
+    margin-left: 6.5rem;
+    margin-top: -4rem;
+
+}
+
+#drop-bulma{
+    width: 5rem;
+    margin-left: 6.5rem;
+    margin-top: -4rem;
+
+}
+#drop-boot{
+    width: 6rem;
+    margin-left: 6.5rem;
+    margin-top: -4rem;
+
+}
+
+.img-linkedin{
+    margin-top: 1.5rem !important;
+    width: 35px;
+    height: 35px;
+    margin-left: 0.6rem !important; 
+  
+}
+.img-linkedin:hover{
+    filter: contrast(130%);
+}
+
+
+.img-git{
+    width: 39px;
+    height: 39px;
+    margin-left: -0.9rem!important;
+    margin-top: 1.3rem !important;
+   
+}
+
+.img-git:hover{
+   filter: contrast(130%);
+}
+
+#js-student{
+    margin-left: -0.3rem!important;
+}
+
+#btn-contato{
+    color: #ffff;
+    background-color: rgba(66, 26, 99, 0.76);
+}
+
+#footerc{
+    background-color: #876f977c;
+}
+

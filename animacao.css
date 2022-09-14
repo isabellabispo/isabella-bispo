@@ -1,0 +1,24 @@
+@keyframes animacao{
+
+    from{background-color: (167, 33, 172, 0.664); width: 500px;}
+    to {background-color: rgb(7, 21, 68); width: 90px;}
+    to {background-color: aqua; width: 500px;}
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+    width: 500px;
+    height: 500px;
+    background-color:rgba(167, 33, 172, 0.664);
+    animation-name: animacao;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    border-radius: 300px;
+}
+
